@@ -23,7 +23,7 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 
 #### A. Requisiti di Efficienza
 * **Requisiti di Prestazioni:**
-  * Il gioco deve mantenere un framerate stabile di almeno **60 FPS** a risoluzione 1080p su configurazioni hardware medie.
+  * Il gioco deve mantenere un framerate stabile di almeno **30 FPS** a risoluzione 1080p su configurazioni hardware medie.
   * Il tempo di caricamento iniziale della mappa non deve superare i **10 secondi**.
 * **Requisiti di Spazio:**
   * La dimensione totale dell'installazione su disco non deve superare i **15 GB**.
@@ -32,21 +32,19 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 #### B. Requisiti di Usabilità
 * L'interfaccia utente (HUD) deve essere minimalista per favorire l'immersione nell'ambiente alieno.
 * I comandi di gioco devono essere configurabili sia per tastiera/mouse che per controller (gamepad).
-* L'interfaccia deve supportare testi e sottotitoli in lingua italiana e inglese.
+* L'interfaccia deve supportare testi e sottotitoli in lingua italiana e ed estensibile, cosi da garantire l'internazionalizzazione.
 
 #### C. Requisiti di Affidabilità
-* Il tasso di crash del sistema deve essere inferiore a **1 ogni 50 ore** di gioco continuo.
+* Il tasso di crash del sistema deve essere inferiore a **1 ogni 10 ore** di gioco continuo.
 * In caso di chiusura improvvisa, il sistema deve ripristinare l'ultimo checkpoint valido senza corruzione del salvataggio.
 
 #### D. Requisiti di Protezione
-* I file di salvataggio locali devono essere validati tramite checksum per prevenire la modifica o corruzione intenzionale dei dati di gioco.
-
----
+* I file di salvataggio locali deve non corrompersi o perdersi.
 
 ### 1.2 Requisiti Organizzativi
 
 #### A. Requisiti Ambientali
-* Gli asset 3D e i moduli di terreno sviluppati in Blender devono essere ottimizzati per l'efficienza energetica della GPU/CPU durante il rendering in tempo reale.
+* Gli asset 3D e i moduli di terreno sviluppati in BlockBench devono essere ottimizzati per l'efficienza energetica della GPU/CPU durante il rendering in tempo reale.
 
 #### B. Requisiti di Funzionamento
 * Il gioco deve poter funzionare in modalità completamente **offline** senza richiedere una connessione internet costante.
@@ -58,10 +56,10 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 
 ---
 
-### 1.3 Requisiti Esterni
+### 1.3 Requisiti Esterni+
 
 #### A. Requisiti Normativi
-* **Requisiti Contabili:** Il progetto deve rientrare nei costi di licenza previsti per tool open-source e software gratuito (Blender, librerie Python).
+* **Requisiti Contabili:** Il progetto deve rientrare nei costi di licenza previsti per tool open-source e software gratuito (Blender, librerie java).
 * **Requisiti di Sicurezza / Protezione:** Conformità con le linee guida della piattaforma di distribuzione (es. Steam / Epic Games Store) relative all'esecuzione sicura di software su PC.
 
 #### B. Requisiti Etici
@@ -82,6 +80,12 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 * **RF-04 (Risoluzione Enigmi):** Il gioco deve verificare lo stato di avanzamento degli enigmi ambientali basandosi sulle informazioni e sugli oggetti raccolti.
 * **RF-05 (Bifurcazione Narrativa e Finali):** Il sistema deve tracciare le decisioni chiave prese dal giocatore e sbloccare uno dei **due finali previsti** in base alle scelte effettuate nell'ultima fase di gioco.
 * **RF-06 (Gestione Salvataggi):** Il gioco deve permettere il salvataggio manuale e automatico dello stato del giocatore (posizione, inventario, indizi trovati).
+* **RF-07** Il sistema deve impedire l'accesso a un'area bloccata finché la condizione di sblocco non è soddisfatta.
+* **RF-08** Se il giocatore tenta di accedere a un'area bloccata, il sistema deve mostrare un feedback.
+* **RF-09** Il sistema deve consentire di tornare in aree gia visitate.
+* **RF-10** Il sistema deve mantenere l'infomazione sullo sblocco anche dopo il riavvio del salvataggio.
+* **RF-11** Il sistema prevede 2 difficolta; facile permette di attivare una modalità visiva che evidenzia gli oggetti interagibili. Difficile non vi è alcun aiuto.
+* **RF-12** Il sistema randomizza lo spawn degli elementi interagibili.:q
 
 ---
 
