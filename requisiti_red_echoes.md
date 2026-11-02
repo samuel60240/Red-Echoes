@@ -23,7 +23,7 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 
 #### A. Requisiti di Efficienza
 * **Requisiti di Prestazioni:**
-  * Il gioco deve mantenere un framerate stabile di almeno **30 FPS** a risoluzione 1080p su configurazioni hardware medie.
+  * Il gioco deve mantenere un framerate stabile di almeno **30 FPS** su configurazioni hardware medie.
   * Il tempo di caricamento iniziale della mappa non deve superare i **10 secondi**.
 * **Requisiti di Spazio:**
   * La dimensione totale dell'installazione su disco non deve superare i **15 GB**.
@@ -35,16 +35,13 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 * L'interfaccia deve supportare testi e sottotitoli in lingua italiana e ed estensibile, cosi da garantire l'internazionalizzazione.
 
 #### C. Requisiti di Affidabilità
-* Il tasso di crash del sistema deve essere inferiore a **1 ogni 10 ore** di gioco continuo.
 * In caso di chiusura improvvisa, il sistema deve ripristinare l'ultimo checkpoint valido senza corruzione del salvataggio.
 
 #### D. Requisiti di Protezione
-* I file di salvataggio locali deve non corrompersi o perdersi.
 
 ### 1.2 Requisiti Organizzativi
 
-#### A. Requisiti Ambientali
-* Gli asset 3D e i moduli di terreno sviluppati in BlockBench devono essere ottimizzati per l'efficienza energetica della GPU/CPU durante il rendering in tempo reale.
+* IntelijIDEA, BlockBench, Blender, java, git.
 
 #### B. Requisiti di Funzionamento
 * Il gioco deve poter funzionare in modalità completamente **offline** senza richiedere una connessione internet costante.
@@ -52,23 +49,6 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 #### C. Requisiti di Sviluppo
 * **Pipeline grafica:** Utilizzo di Blender per la modellazione low-poly/mid-poly e il texturing dei moduli di terreno.
 * **Modularity:** Architettura dei livelli basata su tessere modulari intercambiabili (Tiles 10x10) con punti di connessione predefiniti.
-* **Codice:** Implementazione delle componenti di rete e script logici secondo standard documentati e puliti.
-
----
-
-### 1.3 Requisiti Esterni+
-
-#### A. Requisiti Normativi
-* **Requisiti Contabili:** Il progetto deve rientrare nei costi di licenza previsti per tool open-source e software gratuito (Blender, librerie java).
-* **Requisiti di Sicurezza / Protezione:** Conformità con le linee guida della piattaforma di distribuzione (es. Steam / Epic Games Store) relative all'esecuzione sicura di software su PC.
-
-#### B. Requisiti Etici
-* Trattamento di temi quali la responsabilità della ricerca scientifica e l'esplorazione spaziale senza contenuti espliciti gratuiti, mantenendo una classificazione PEGI 12+.
-
-#### C. Requisiti Legislativi
-* Rispetto delle licenze d'uso delle librerie terze utilizzate nel progetto (GPL/MIT).
-* Conformità al GDPR per l'eventuale raccolta anonima di dati di crash o telemetria di gioco.
-
 ---
 ## 2. Requisiti Funzionali (Functional Requirements)
 
