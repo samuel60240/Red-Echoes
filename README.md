@@ -25,11 +25,11 @@
 ---
 
 ##  Introduzione alla Storia
-**Red Echoes** è un videogioco d'avventura in 3D ambientato su **Kepler-186f**, un pianeta extrasolare caratterizzato da vaste foreste dalla vegetazione rossastra, specchi d'acqua e strutture scientifiche abbandonate. L'ambientazione si ispira alle reali caratteristiche astronomiche del pianeta e offre uno scenario misterioso in cui l'esplorazione e l'investigazione costituiscono gli elementi centrali dell'esperienza di gioco.
-
-La storia ha inizio quando una spedizione scientifica inviata sul pianeta interrompe improvvisamente ogni comunicazione con la Terra. Per fare luce sull'accaduto, viene organizzata una nuova missione con l'obiettivo di recuperare i dati raccolti e ricostruire gli ultimi eventi che hanno preceduto la scomparsa dell'equipaggio. 
-
-Il giocatore assume il ruolo dell'**astronauta incaricato di condurre l'indagine**, ritrovandosi ad affrontare un ambiente sconosciuto nel quale ogni dettaglio potrebbe rappresentare un indizio.
+**Red Echoes** – Introduzione alla storia
+Red Echoes è un videogioco d'avventura in 3D ambientato su Kepler-186f, un pianeta extrasolare caratterizzato, da vaste foreste dalla vegetazione rossastra, specchi d'acqua e strutture scientifiche abbandonate. L'ambientazione si ispira alle caratteristiche astronomiche del pianeta e offre uno scenario misterioso nel quale esplorazione e investigazione costituiscono gli elementi centrali dell'esperienza di gioco.
+La storia ha inizio quando una spedizione scientifica inviata sul pianeta interrompe improvvisamente ogni comunicazione con la Terra. Per fare luce sull'accaduto, viene organizzata una nuova missione con l'obiettivo di recuperare i dati raccolti e ricostruire gli ultimi eventi che hanno preceduto la scomparsa dell'equipaggio. Il giocatore assume il ruolo dell'astronauta incaricato di condurre l'indagine e si trova ad affrontare un ambiente sconosciuto, nel quale ogni dettaglio potrebbe rappresentare un indizio.
+Attraverso l'esplorazione degli ambienti, la raccolta di documenti e registrazioni e l'utilizzo di strumenti scientifici, il giocatore dovrà risolvere enigmi e ricostruire progressivamente gli avvenimenti. Nel corso della missione emergeranno informazioni contraddittorie che metteranno in dubbio la versione ufficiale della spedizione, facendo sorgere nuovi interrogativi sulla natura della scoperta effettuata su Kepler-186f.
+L'obiettivo del gioco è quindi accompagnare il giocatore in un'indagine narrativa nella quale osservazione, ragionamento e capacità di collegare gli indizi sono fondamentali per proseguire.
 
 ---
 
