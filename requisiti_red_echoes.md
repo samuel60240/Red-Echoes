@@ -78,14 +78,13 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 * **RF-02 (Raccolta Indizi e Oggetti):** Il giocatore deve poter interagire con elementi dello scenario per raccogliere registrazioni audio, documenti di testo e log della spedizione precedente.
 * **RF-03 (Strumenti Scientifici):** Il sistema deve fornire al giocatore strumenti per scansionare l'ambiente, analizzare la vegetazione rossastra e rilevare anomalie o segnali.
 * **RF-04 (Risoluzione Enigmi):** Il gioco deve verificare lo stato di avanzamento degli enigmi ambientali basandosi sulle informazioni e sugli oggetti raccolti.
-* **RF-05 (Bifurcazione Narrativa e Finali):** Il sistema deve tracciare le decisioni chiave prese dal giocatore e sbloccare uno dei **due finali previsti** in base alle scelte effettuate nell'ultima fase di gioco.
-* **RF-06 (Gestione Salvataggi):** Il gioco deve permettere il salvataggio manuale e automatico dello stato del giocatore (posizione, inventario, indizi trovati).
-* **RF-07** Il sistema deve impedire l'accesso a un'area bloccata finché la condizione di sblocco non è soddisfatta.
-* **RF-08** Se il giocatore tenta di accedere a un'area bloccata, il sistema deve mostrare un feedback.
-* **RF-09** Il sistema deve consentire di tornare in aree gia visitate.
-* **RF-10** Il sistema deve mantenere l'infomazione sullo sblocco anche dopo il riavvio del salvataggio.
-* **RF-11** Il sistema prevede 2 difficolta; facile permette di attivare una modalità visiva che evidenzia gli oggetti interagibili. Difficile non vi è alcun aiuto.
-* **RF-12** Il sistema randomizza lo spawn degli elementi interagibili.:q
+* **RF-05 (Gestione Salvataggi):** Il gioco deve permettere il salvataggio manuale e automatico dello stato del giocatore (posizione, inventario, indizi trovati).
+* **RF-06** Il sistema deve impedire l'accesso a un'area bloccata finché la condizione di sblocco non è soddisfatta.
+* **RF-07** Se il giocatore tenta di accedere a un'area bloccata, il sistema deve mostrare un feedback.
+* **RF-08** Il sistema deve consentire di tornare in aree gia visitate.
+* **RF-09** Il sistema deve mantenere l'infomazione sullo sblocco anche dopo il riavvio del salvataggio.
+* **RF-10** Il sistema prevede 2 difficolta; facile permette di attivare una modalità visiva che evidenzia gli oggetti interagibili. Difficile non vi è alcun aiuto.
+* **RF-11** Il sistema randomizza lo spawn degli elementi interagibili.:q
 
 ---
 
