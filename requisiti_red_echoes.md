@@ -21,35 +21,57 @@ Questo documento definisce i **Requisiti Funzionali** e la classificazione compl
 
 ### 1.1 Requisiti del Prodotto
 
+       
 #### A. Requisiti di Efficienza
-* **Requisiti di Prestazioni:**
-  * Il gioco deve mantenere un framerate stabile di almeno **30 FPS** su configurazioni hardware medie.
-  * Il tempo di caricamento iniziale della mappa non deve superare i **10 secondi**.
-* **Requisiti di Spazio:**
-  * La dimensione totale dell'installazione su disco non deve superare i **15 GB**.
-  * L'occupazione di memoria RAM deve rimanere entro un limite di **8 GB** durante l'esecuzione standard.
+**Requisiti di Prestazioni:**
+    * Il gioco deve mantenere un framerate stabile di almeno **30 FPS** su configurazioni hardware medie.
+    * Il tempo di caricamento iniziale della mappa non deve superare i **10 secondi**.
+**Requisiti di Spazio:**
+    * La dimensione totale dell'installazione su disco non deve superare i **15 GB**.
+    * L'occupazione di memoria RAM deve rimanere entro un limite di **8 GB** durante l'esecuzione standard.
 
 #### B. Requisiti di Usabilità
-* L'interfaccia utente (HUD) deve essere minimalista per favorire l'immersione nell'ambiente alieno.
-* I comandi di gioco devono essere configurabili sia per tastiera/mouse che per controller (gamepad).
-* L'interfaccia deve supportare testi e sottotitoli in lingua italiana e ed estensibile, cosi da garantire l'internazionalizzazione.
+    * L'interfaccia utente (HUD) deve essere minimalista per favorire l'immersione nell'ambiente alieno.
+    * I comandi di gioco devono essere configurabili sia per tastiera/mouse che per controller (gamepad).
+    * L'interfaccia deve supportare testi e sottotitoli in lingua italiana e ed estensibile, cosi da garantire l'internazionalizzazione.
+    * Il gioco deve poter funzionare in modalità completamente **offline** senza richiedere una connessione internet costante.
 
 #### C. Requisiti di Affidabilità
-* In caso di chiusura improvvisa, il sistema deve ripristinare l'ultimo checkpoint valido senza corruzione del salvataggio.
-
-#### D. Requisiti di Protezione
-
+    * In caso di chiusura improvvisa, il sistema deve ripristinare l'ultimo checkpoint valido senza corruzione del salvataggio.
+#### D  Requisiti di Protezione
+    * Il sistema deve essere resistente alla corruzione dei file.
 ### 1.2 Requisiti Organizzativi
 
-* IntelijIDEA, BlockBench, Blender, java, git.
+    ### A Requisiti ambientali
+    
+        *Windows 10/11
+        *MacOS
+        *Java Virtual Machine
 
-#### B. Requisiti di Funzionamento
-* Il gioco deve poter funzionare in modalità completamente **offline** senza richiedere una connessione internet costante.
+          
+    ### B. Requisiti di Funzionamento
+        **Il team deve organizzare lo sviluppo in sprint secondo la metodologia agile
+    ### C. Requisiti di Sviluppo
+        
+        **Pipeline grafica:** Utilizzo di Blender per la modellazione e il texturing dei moduli di terreno.
+        **Linguaggio di programmazione: Java. Software di sviluppo: IntelijIDEA, BlockBench, Blender, git.
+### 1.3 Requisiti esterni
 
-#### C. Requisiti di Sviluppo
-* **Pipeline grafica:** Utilizzo di Blender per la modellazione low-poly/mid-poly e il texturing dei moduli di terreno.
-* **Modularity:** Architettura dei livelli basata su tessere modulari intercambiabili (Tiles 10x10) con punti di connessione predefiniti.
+    ###Requisit giuridici
+        *asset gratuiti per la realizzazione del progetto, con licenze che ne consentono l'uso, la modifica e la commercializzazione. 
 ---
+
+
+
+
+
+
+
+
+
+
+
+<!---
 ## 2. Requisiti Funzionali (Functional Requirements)
 
 I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità che il sistema deve eseguire:
@@ -66,6 +88,6 @@ I requisiti funzionali definiscono i comportamenti, le azioni e le funzionalità
 * **RF-10** Il sistema prevede 2 difficolta; facile permette di attivare una modalità visiva che evidenzia gli oggetti interagibili. Difficile non vi è alcun aiuto.
 * **RF-11** Il sistema randomizza lo spawn degli elementi interagibili.:q
 
----
+-->
 
 *Documento di Analisi dei Requisiti per Red Echoes.*
