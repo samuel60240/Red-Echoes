@@ -1,0 +1,32 @@
+classDiagram
+  direction LR
+
+  class Giocatore
+
+  class GameController {
+    elaborazione dei comandi d'input
+    traduzione dei comanti nei movimenti rispetto all'ambiente
+    convalida delle modifice ambientali
+    }
+
+  class GameModel {
+    aggiornamento dello stato del mondo
+    salvataggio progressi
+
+  }
+
+  class GameView {
+    Gestione dinamica dell'interfaccia
+    visione stato degli strumenti
+    distinzione delgi oggetti interagibili
+    }
+
+
+  Giocatore -> GameController : input
+  GameController -> GameView : Modulo da visualizzare
+  GameController --> GameModel : richiesta di aggiornamento
+  GameView --> GameModel : richiesta di refresh
+  GameView --> GameController : Eventi dell'utente
+  GameView --> Giocatore : visualizza
+  GameModel --> GameView : Notifica della modifica
+
